@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".js": "application/javascript",
+    ".css": "text/css",
+    ".svg": "image/svg+xml",
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".webp": "image/webp"
+  },
+  "globalHeaders": {
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-XSS-Protection": "1; mode=block"
+  }
+}
