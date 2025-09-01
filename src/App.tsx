@@ -52,7 +52,7 @@ function App() {
       icon: ChartLine,
       title: "Custom AI Solutions",
       description: "End-to-end AI solution development from concept to deployment and ongoing optimization.",
-      features: ["Machine Learning Models", "Natural Language Processing", "Computer Vision Systems", "Predictive Analytics"]
+      features: ["GenAI - Agentic AI - Multi-agent solutions", "Machine Learning Models", "Natural Language Processing", "Computer Vision Systems", "Predictive Analytics"]
     },
     {
       icon: Users,
@@ -87,9 +87,9 @@ function App() {
   ]
 
   const stats = [
-    { value: "500+", label: "Clients Worldwide" },
+    { value: "10+", label: "Clients Worldwide" },
     { value: "98%", label: "Success Rate" },
-    { value: "50+", label: "Countries Served" },
+    { value: "2+", label: "Countries Served" },
     { value: "24/7", label: "Global Support" }
   ]
 
@@ -351,7 +351,7 @@ function App() {
                   <h3 className="text-xl font-semibold">Expert Team</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  Our certified AI specialists have delivered successful projects across 50+ industries worldwide.
+                  Our certified AI specialists have delivered successful projects across multiple industries worldwide.
                 </p>
               </Card>
             </div>
@@ -408,7 +408,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">admin@SmartAi4u.com</p>
+                    <p className="text-muted-foreground">contact_us@SmartAI4u.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -417,7 +417,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-semibold">Global Presence</p>
-                    <p className="text-muted-foreground">Serving clients in 50+ countries</p>
+                    <p className="text-muted-foreground">Serving clients in multiple countries</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -506,16 +506,16 @@ function App() {
               <ul className="space-y-2 text-primary-foreground/80">
                 <li>AI Strategy Consulting</li>
                 <li>Custom AI Solutions</li>
-                <li>Training Programs</li>
+                <li>AI Training Programs</li>
                 <li>Global Implementation</li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="space-y-2 text-primary-foreground/80">
-                <p>admin@SmartAi4u.com</p>
+                <p>contact_us@SmartAI4u.com</p>
                 <p>Global 24/7 Support</p>
-                <p>50+ Countries Served</p>
+                <p>2+ Countries Served</p>
               </div>
             </div>
           </div>
